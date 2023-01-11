@@ -33,6 +33,7 @@ defmodule SimpleApp.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
+      {:activity_pub, "~> 0.1"},
       {:phoenix, "~> 1.6.15"},
       {:phoenix_ecto, "~> 4.4"},
       {:ecto_sql, "~> 3.6"},
